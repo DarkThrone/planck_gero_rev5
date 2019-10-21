@@ -69,7 +69,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [_QWERTY] = LAYOUT_planck_grid(
     KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSPC,
-MAGICT,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
+    MAGICT,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
     KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_ENT ,
     MAGIC, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
 ),
@@ -87,7 +87,7 @@ MAGICT,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,   
  */
 [_COLEMAK] = LAYOUT_planck_grid(
     KC_TAB,  KC_Q,    KC_W,    KC_F,    KC_P,    KC_G,    KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN, KC_BSPC,
-MAGICT,  KC_A,    KC_R,    KC_S,    KC_T,    KC_D,    KC_H,    KC_N,    KC_E,    KC_I,    KC_O,    KC_QUOT,
+    MAGICT,  KC_A,    KC_R,    KC_S,    KC_T,    KC_D,    KC_H,    KC_N,    KC_E,    KC_I,    KC_O,    KC_QUOT,
     KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_K,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_ENT ,
     MAGIC, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
 ),
@@ -105,7 +105,7 @@ MAGICT,  KC_A,    KC_R,    KC_S,    KC_T,    KC_D,    KC_H,    KC_N,    KC_E,   
  */
 [_DVORAK] = LAYOUT_planck_grid(
     KC_TAB,  KC_QUOT, KC_COMM, KC_DOT,  KC_P,    KC_Y,    KC_F,    KC_G,    KC_C,    KC_R,    KC_L,    KC_BSPC,
-MAGICT,  KC_A,    KC_O,    KC_E,    KC_U,    KC_I,    KC_D,    KC_H,    KC_T,    KC_N,    KC_S,    KC_SLSH,
+    MAGICT,  KC_A,    KC_O,    KC_E,    KC_U,    KC_I,    KC_D,    KC_H,    KC_T,    KC_N,    KC_S,    KC_SLSH,
     KC_LSFT, KC_SCLN, KC_Q,    KC_J,    KC_K,    KC_X,    KC_B,    KC_M,    KC_W,    KC_V,    KC_Z,    KC_ENT ,
     MAGIC, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
 ),
@@ -123,7 +123,7 @@ MAGICT,  KC_A,    KC_O,    KC_E,    KC_U,    KC_I,    KC_D,    KC_H,    KC_T,   
  */
 [_NORMAN] = LAYOUT_planck_grid(
     KC_TAB,  KC_Q,    KC_W,    KC_D,    KC_F,    KC_K,    KC_J,    KC_U,    KC_R,    KC_L,    KC_SCLN, KC_BSPC,
-MAGICT,  KC_A,    KC_S,    KC_E,    KC_T,    KC_G,    KC_Y,    KC_N,    KC_I,    KC_O,    KC_H,    KC_QUOT,
+    MAGICT,  KC_A,    KC_S,    KC_E,    KC_T,    KC_G,    KC_Y,    KC_N,    KC_I,    KC_O,    KC_H,    KC_QUOT,
     KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_P,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_ENT ,
     MAGIC, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_RGUI, KC_RALT, KC_RCTL,   MAGIC
 ),
@@ -141,7 +141,7 @@ MAGICT,  KC_A,    KC_S,    KC_E,    KC_T,    KC_G,    KC_Y,    KC_N,    KC_I,   
  */
 [_LINUS] = LAYOUT_planck_grid(
     KC_TAB,  KC_Q,    KC_W,    KC_D,    KC_F,    KC_K,    KC_J,    KC_U,    KC_R,    KC_L,    KC_SCLN, KC_BSPC,
-MAGICTL,  KC_A,    KC_S,    KC_E,    KC_T,    KC_G,    KC_Y,    KC_N,    KC_I,    KC_O,    KC_H,    KC_QUOT,
+    MAGICTL,  KC_A,    KC_S,    KC_E,    KC_T,    KC_G,    KC_Y,    KC_N,    KC_I,    KC_O,    KC_H,    KC_QUOT,
     KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_P,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_ENT ,
     MAGICL, KC_LGUI, KC_LALT, KC_LCTL, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_RCTL, KC_RALT, KC_RGUI,   MAGICL
 ),
@@ -240,10 +240,10 @@ MAGICTL,  KC_A,    KC_S,    KC_E,    KC_T,    KC_G,    KC_Y,    KC_N,    KC_I,  
  * 5- replace file - ctrl + r =
  * 6- generate code - ctrl + enter =
  * 7- settings - ctrl + alt + s =
- * 8- simbol - ctrl + n =
+ * 8- simbol - ctrl + alt+ shift + n =
  * 9- file - ctrl + shift + n =
- * 10- class - alt + ctrl + shift + n =
- * 11- project - alt + win + shift + n =
+ * 10- class - ctrl  + n =
+ * 11- project - alt + shift + n =
  * 12- Search in file - ctrl + f =
  * 13- search in path - ctrl + shift + f =
  * 14- prvious point - shift + alt + ← =
@@ -265,9 +265,9 @@ MAGICTL,  KC_A,    KC_S,    KC_E,    KC_T,    KC_G,    KC_Y,    KC_N,    KC_I,  
 #define LFN_5   CTLK(KC_R)
 #define LFN_6   CTLK(KC_ENT)
 #define LFN_7   LCA(KC_S)
-#define LFN_8   CTLK(KC_N)
-#define LFN_9   SCTL(KC_N)
-#define LFN_10  LCA(KC_N)
+#define LFN_8   MEH(KC_N)
+#define LFN_9   SALT(KC_N)
+#define LFN_10  CTLK(KC_N)
 #define LFN_11  WSCTL(KC_N)
 #define LFN_12  CTLK(KC_F)
 #define LFN_13  SCTL(KC_F)
@@ -275,7 +275,7 @@ MAGICTL,  KC_A,    KC_S,    KC_E,    KC_T,    KC_G,    KC_Y,    KC_N,    KC_I,  
 #define LFN_15  SALT(KC_RGHT)
 #define LFN_16  SALT(KC_7)
 #define LFN_17  ALTK(KC_1)
-#define LFN_18  ALTK(KC_1)
+#define LFN_18  ALTK(KC_2)
 #define LFN_23  CTLK(KC_F12)
 
 [_MAGICL] = LAYOUT_planck_grid(
